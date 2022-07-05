@@ -4,8 +4,18 @@
     <title>Fund Me Dapp</title>
   </head>
   <body>
-    Hello! whats up ?
-    <script src="./index.js" type="text/javascript"></script>
-    <button id="connectButton" onclick="connect()">Connect</button>
+    Welcome to Fund Me Dapp.
+
+    <div>
+      <button id="connectButton">Connect</button>
+    </div>
+    <div><button id="balanceButton">getBalance</button></div>
+    <div><button id="withdrawButton">withdraw</button></div>
+    <div>
+      <label for="fund">ETH Amount</label>
+      <input id="ethAmount" placeholder="0.1" />
+      <button type="button" id="fundButton">Fund</button>
+    </div>
   </body>
+  <script src="./index.js" type="module"></script>
 </html>
