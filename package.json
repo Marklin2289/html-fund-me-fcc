@@ -1,0 +1,12 @@
+{
+  "name": "html-fund-me-fcc",
+  "version": "1.0.0",
+  "description": "fund-me-dapp",
+  "main": "index.js",
+  "repository": "https://github.com/Marklin2289/html-fund-me-fcc.git",
+  "author": "Mark Lin <61925580+Marklin2289@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
